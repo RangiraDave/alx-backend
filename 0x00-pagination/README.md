@@ -2,9 +2,9 @@
 
 This repository contains the code for the pagination project in the ALX Backend curriculum.
 
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/3646eb02de6527ca5d83.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T070410Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=7aac80e8c3bc0abfd5b2027fd172157825624041cf08690a6fa4d1fbf38a3e33)
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/746187b76bea1f46030e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T070410Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=53fb9011f05c07d459a4a1bc6bb0d98291e0937af09a8c589f5fa7bdf5792848)
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/665ce871c2ecc66a8e71.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T070410Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=a2a2f0d285161884bc6d055fa81cf8b70eeba2e0ce814ab7cf66a48882dd7d45)
+![Image 1](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/3646eb02de6527ca5d83.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T070410Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=7aac80e8c3bc0abfd5b2027fd172157825624041cf08690a6fa4d1fbf38a3e33)
+![Image 2](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/746187b76bea1f46030e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T070410Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=53fb9011f05c07d459a4a1bc6bb0d98291e0937af09a8c589f5fa7bdf5792848)
+![Image 3](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/665ce871c2ecc66a8e71.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T070410Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=a2a2f0d285161884bc6d055fa81cf8b70eeba2e0ce814ab7cf66a48882dd7d45)
 
 ## Resources
 
