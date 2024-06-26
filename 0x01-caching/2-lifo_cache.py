@@ -3,6 +3,7 @@
 Script to Create the class LIFOCache that inherits from BaseCaching
 and is a caching system
 """
+
 from base_caching import BaseCaching
 
 
@@ -14,6 +15,7 @@ class LIFOCache(BaseCaching):
 
     def __init__(self):
         super().__init__()
+        self.cache_data = OrderedDict()
 
     def put(self, key, item):
         """
@@ -23,6 +25,7 @@ class LIFOCache(BaseCaching):
             key: Key of the item.
             item: Item to be added to the cache.
         """
+
         if key is None or item is None:
             return
 
@@ -44,6 +47,7 @@ class LIFOCache(BaseCaching):
             The item associated with the given key,
             or None if the key is not found in the cache.
         """
+
         if key is None or key not in self.cache_data:
             return None
 
