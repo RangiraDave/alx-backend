@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 """
+This module contains a Flask application that supports
+internationalization (i18n).
+It includes routes for the default index page and
+a configuration class for the application.
 """
 
 from flask import Flask, render_template, request
