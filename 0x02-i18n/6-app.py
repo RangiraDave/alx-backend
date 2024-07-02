@@ -66,12 +66,26 @@ def get_locale() -> str:
         - best match language code for user.
     """
 
-    if g.user:
-        locale = g.user.get('locale')
-        if locale in app.config['LANGUAGES']:
-            return locale
+    # Locale from URL parameters
+    locale = request.args.get('locale')
+    if locale and locale in app.config['LANGUAGES']:
+        return locale
 
-    return request.accept_languages.best_match(app.config['LANGUAGES'])
+    # Locale from user settings
+    if g.user:
+        user_locale = g.user.get('locale')
+        if user_locale and user_locale in app.config['LANGUAGES']:
+            return user_locale
+
+    # Locale from request header
+    header_locale = request.accept_languages.best_match(
+        app.config['LANGUAGES']
+        )
+    if header_locale:
+        return header_locale
+
+    # Default locale
+    return app.config['BABEL_DEFAULT_LOCALE']
 
 
 @app.route('/')
@@ -82,7 +96,7 @@ def index() -> str:
         - Rendered template
     """
 
-    return render_template('5-index.html')
+    return render_template('6-index.html')
 
 
 if __name__ == "__main__":
