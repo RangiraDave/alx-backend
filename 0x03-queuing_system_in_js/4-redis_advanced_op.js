@@ -1,6 +1,4 @@
 // using the client to store a hash value
-
-const redis = require('redis');
 import redis from 'redis';
 
 // Create a Redis client

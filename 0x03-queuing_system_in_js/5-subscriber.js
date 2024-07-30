@@ -1,25 +1,26 @@
-const redis = require('redis');
 import redis from 'redis';
 
-// Create Redis client
+// Create a Redis client
 const client = redis.createClient();
 
-// On connect
+// Log a message when connected
 client.on('connect', () => {
   console.log('Redis client connected to the server');
 });
 
-// On error
+// Log an error message when there's an error
 client.on('error', (error) => {
   console.log(`Redis client not connected to the server: ${error.message}`);
 });
 
-// Subscribe to the channel
+// Subscribe to the "holberton school channel"
 client.subscribe('holberton school channel');
 
-// On message
+// Log received messages on the channel
 client.on('message', (channel, message) => {
-  console.log(`Message received on channel ${channel}: ${message}`);
+  console.log(`Received message on channel ${channel}: ${message}`);
+
+  // Unsubscribe and quit if the message is "KILL_SERVER"
   if (message === 'KILL_SERVER') {
     client.unsubscribe();
     client.quit();

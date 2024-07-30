@@ -1,4 +1,3 @@
-const redis = require('redis');
 import redis from 'redis';
 
 // Create a Redis client

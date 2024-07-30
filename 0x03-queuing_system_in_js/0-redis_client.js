@@ -1,4 +1,4 @@
-const redis = require('redis');
+// Install Redis client using npm
 import redis from 'redis';
 
 // Create a Redis client
